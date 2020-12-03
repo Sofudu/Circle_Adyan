@@ -10,6 +10,7 @@ class Circle(QMainWindow, Ui_MainWindow):
         super().__init__()
         self.initUi()
         self.do_paint = False
+        self.da = 12
 
         self.size = 0
         self.x = 0

@@ -38,6 +38,7 @@ class Circle(QMainWindow, Ui_MainWindow):
         y = randint(0 + size // 2, 680 - size // 2)
         qp.setBrush(QColor(randint(0, 255), randint(0, 255), randint(0, 255)))
         qp.drawEllipse(x - size // 2, y - size // 2, size, size)
+        pass
 
 
 if __name__ == '__main__':
